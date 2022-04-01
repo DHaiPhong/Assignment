@@ -16,6 +16,13 @@ document.querySelector('#cart-btn').onclick = () =>{
     searchForm.classList.remove('active');
 }
 
+document.querySelector('#menu-btn').onclick = () =>{
+    navbar.classList.toggle('active');
+    searchForm.classList.remove('active');
+    cartItem.classList.remove('active');
+}
+
+
 let carts = document.querySelectorAll('.add-cart');
 
 let products = [
