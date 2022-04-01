@@ -102,6 +102,10 @@ section{
     padding-bottom: .5rem;
 }
 
+.header .navbar .active {
+    color:var(--main-color);
+}
+
 .header .icons div{
     color:#fff;
     cursor: pointer;
